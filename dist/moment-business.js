@@ -43,7 +43,7 @@
       }
 
       var sign = determineSign(amount);
-      var day = moment.day();
+      var day = moment().day();
       var absIncrement = Math.abs(amount);
 
       var days = 0;
